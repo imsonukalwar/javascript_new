@@ -13,11 +13,11 @@ console.log(inspector);
 
 //jsons
 //API in form of object
-{
-    name:"sonu",
-    coursename:"js in hindi",
-    prise:"free"
-}
+// {
+//     name:"sonu",
+//     coursename:"js in hindi",
+//     prise:"free"
+// }
 
 //API in form of array
 
