@@ -20,11 +20,11 @@ console.log("u");
 // function addtwonum(num1,num2){//here are we take two parameter
 // console.log((num1+num2));
 // }
-// // addtwonum(4,8)//here we pass two arguement
-
-// const result =addtwonum(3,5);
-// console.log("answer",result);//console log is not print (8) this is print undefined 
+// addtwonum(4,8)//here we pass two arguement
+//const result1 =addtwonum(3,5);
+ //console.log("answer",result);//console log is not print (8) this is print undefined 
 //that's mean console log not return function's value it just print 
+
 
 
 
@@ -47,4 +47,4 @@ function userlog(username){
 // userlog("sonu")//this line not print anything because here is not state that you print the function instruction 
 //console.log( userlog());
 
-console.log( userlog("sonu"));
+//console.log( userlog("sonu"));
