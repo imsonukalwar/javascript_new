@@ -44,7 +44,7 @@ function userlog(username){
     }
     return `${username} just loged in`
 }
-// userlog("sonu")//this line not print anything because here is not state that you print the function instruction 
+ userlog()//this line not print anything because here is not state that you print the function instruction 
 //console.log( userlog());
 
 //console.log( userlog("sonu"));
