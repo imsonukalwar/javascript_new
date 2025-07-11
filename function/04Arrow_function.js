@@ -16,13 +16,13 @@ const user={
 console.log(this);//it will return the empty
 
 
-// function one(){
-//     let username="sonu"
-//     console.log(this.username);//output is undefined because this keyword is work with object not a fuction 
-//     //we will descuss more information regarding this keyword in futher video    
-// }
+function one(){
+    let username="sonu"
+    console.log(this.username);//output is undefined because this keyword is work with object not a fuction 
+    //we will descuss more information regarding this keyword in futher video    
+}
 
-// one()
+one()
 
 
 // const chai=()=>{//it will make a arrow function we are jusr delet function  and replace with arrow with same content make a arrow funtion
@@ -53,4 +53,4 @@ const addtwo=(num1,num2)=>  (num1+num2)
 
 
 const addtwo1=(num1,num2)=>  ({username:"sonu"})
-console.log(addtwo1(2,6));
+//console.log(addtwo1(2,6));

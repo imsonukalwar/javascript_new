@@ -1,3 +1,4 @@
+//IIFE===> IMMEDIATELY INVOKED FUNCTION EXPRESSIN
 // function chai(){
 //     console.log("dirrect connection");
     
@@ -23,4 +24,4 @@
 ((name)=>{
     console.log(`direct connection ${name}`);
     
-})("sonu")// with arguement 
+})("sonu")// with arguement
