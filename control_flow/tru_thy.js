@@ -45,3 +45,4 @@ const iceprise=90;
 iceprise<100?console.log("less than"):console.log("greater");
 
 
+
