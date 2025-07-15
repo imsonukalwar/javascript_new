@@ -17,9 +17,9 @@ const coding=["js","java","python","rubi"]
 
 
 
-// const mynum=[1,2,3,4,5,6,7]
-// const val2=mynum.filter((num)=>num>4)
-// console.log(val2);
+const mynum=[1,2,3,4,5,6,7]
+const val2=mynum.filter((num)=>{ return num>4})
+console.log(val2);  
 
 
 
@@ -87,8 +87,8 @@ const books=[
      }
 ]
 
-//let userbooks=books.filter((bk)=>bk.genre==='history')
-userbooks=books.filter((bk)=> { 
-    return bk.published>= 1995 && bk.genre==='history'
+let userbooks=books.filter((bk)=>bk.genre==='history')
+ const userbooks1=books.filter((bk)=> { 
+     return bk.published>= 1995 && bk.genre==='history'
 })//why return becouse using scope
-console.log(userbooks);
+console.log(userbooks1);

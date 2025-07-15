@@ -6,7 +6,7 @@
 
 const  arr=[1,22,3,10,5,6];
 for(const i of arr){
-    //console.log(i);
+   // console.log(i);
     
 }
 
@@ -14,7 +14,7 @@ for(const i of arr){
 // for (const i of st) {
 //     console.log(i);
     
-// }
+//  }
 
 
 //MAPS
@@ -26,7 +26,7 @@ map.set('fr',"france")
 map.set('US',"united state")
 map.set('in',"india")
 
-//console.log(map);
+console.log(map);
 for (const [i,j ] of map) {
     console.log(i,"===>",j);
     

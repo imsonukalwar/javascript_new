@@ -3,8 +3,8 @@
 
 const coding=["js","java","python","rubi"]
 
-// coding.forEach(function (val){
-//     console.log(val);}
+// coding.forEach(function (item){
+//     console.log(item);}
 // )
     
 // coding.forEach((item)=>{
@@ -31,6 +31,6 @@ const mycode=[
     }
 ]
 mycode.forEach((item)=>{
-    console.log(item.lang);
+    console.log(item);
     
 })
