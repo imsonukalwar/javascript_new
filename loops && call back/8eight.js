@@ -1,6 +1,13 @@
 //reduced method
 
-const myvalue=[1,2,3]
+const myvalue=[1,5,3]
+const t=myvalue.reduce(function (acc,curval){
+       console.log("acc is==",acc);
+    console.log("currval==",curval); 
+   return acc+curval;
+    
+},0)
+console.log(t);
 
 
 // const mytotal=myvalue.reduce(function (acc,currval){
@@ -9,7 +16,7 @@ const myvalue=[1,2,3]
 //     return acc+currval
 // },0)
 
-const  mytotal=myvalue.reduce((acc,curr)=>acc+curr,0)
+const  mytotal1=myvalue.reduce((acc,curr)=>acc+curr,0)
 //console.log(mytotal);
 
 
@@ -28,4 +35,4 @@ const shoapcard=[
     },
 ]
 const total=shoapcard.reduce((acc,item)=>acc+item.prise,0)
-console.log(total);
+//console.log(total);
