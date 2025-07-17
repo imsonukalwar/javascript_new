@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM learning</title>
+</head>
+
+<body style="background-color: #383434; color:white;">
+    <ul class="language"></ul>
+</body>
+
+<script>
+    function addLanguage(langName) {
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`;
+        document.querySelector('.language').appendChild(li);
+    }
+
+    addLanguage("python");
+    addLanguage("javascript");
+
+    function addlangotptimize(langName) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li);
+    }
+
+    addlangotptimize('golang');
+
+    const firstLang = document.querySelector("li:nth-child(1)");
+    firstLang.innerHTML = "mojo";  // replaces 'python' with 'mojo'
+
+    const secondLangUpdated = document.querySelector("li:nth-child(2)");
+    secondLangUpdated.innerHTML = "java";  // replaces 'javascript' with 'java'
+
+    const apdt1 = document.querySelector("li:first-child");
+    apdt1.innerHTML = "typescript";  // correctly replaces the content, not nested <li>
+
+        //remove
+
+        const remo=document.querySelector("li:last-child")
+        remo.remove()
+</script>
+
+</html>
