@@ -1,11 +1,31 @@
-const btn=document.querySelector("button");
-btn.onclick=function(){
-    console.log("clicked");
-    
+const btn=document.querySelectorAll("button");
+// btn.onclick=function(){
+//     console.log("clicked");
+//     alert("don't touhch")
+// }
+// other way to write same logic
+// function nor(){
+//     alert("hello")
+// }
+// btn.onclick=nor;
+
+
+//event proprety=addeventlistener
+for (const btn1 of btn) {
+    btn1.addEventListener("click",sayhello);
+    btn1.addEventListener("click",sayname);
 }
-btn.addEventListener("mouseover", function(){
-    btn.style.backgroundColor="red";
-})
-btn.addEventListener("mouseout", function(){
-    btn.style.backgroundColor="green";
-})
+function sayhello(){
+    alert("hello")
+}
+function sayname(){
+    alert("sonu")
+}
+
+
+// btn.addEventListener("mouseover", function(){
+//     btn.style.backgroundColor="red";
+// })
+// btn.addEventListener("mouseout", function(){
+//     btn.style.backgroundColor="green";
+// })
