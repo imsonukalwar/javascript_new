@@ -21,13 +21,13 @@ buttons.forEach(function (button) {
     // }
     const tap=e.target;
     if(tap.id==='grey'){
-        body.style.backgroundColor="blue"
+        body.style.backgroundColor="grey"
     }
        if(tap.id==='white'){
-        body.style.backgroundColor="green"
+        body.style.backgroundColor="white"
     }
        if(tap.id==='blue'){
-        body.style.backgroundColor="red"
+        body.style.backgroundColor="blue"
     }
        if(tap.id==='yello'){
         body.style.backgroundColor="yellow"
