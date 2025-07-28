@@ -11,3 +11,21 @@ function saveToDB(data){
     }
     });
 }
+
+// let request=saveToDB("sonu kumar");
+// request.then(()=>{
+//     console.log("promise is resolve");
+// });
+// request.catch(()=>{
+//     console.log("promise was resected");
+    
+// })
+
+saveToDB("sonu kumar")
+ .then(()=>{
+    console.log("promise is resolve");
+})
+ .catch(()=>{
+    console.log("promise was resected");
+    
+})
